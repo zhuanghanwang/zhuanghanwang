@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p style="position: absolute;">盗梦空间</p>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(window).mousemove(function(ev){
+			$("p").css({
+				left:ev.clientX,
+				top:ev.clientY
+			},30)
+		})
+	</script>
+</html>
